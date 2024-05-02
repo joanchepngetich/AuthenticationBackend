@@ -3,10 +3,10 @@ package com.LitigationBackend.Authentication.Requests;
 
 public class LoginRequest {
 
-    @NotBlank
+
     private String username;
 
-    @NotBlank
+
     private String password;
 
     public String getUsername() {
